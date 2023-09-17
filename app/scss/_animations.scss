@@ -1,0 +1,85 @@
+.animate1{
+    animation: one 1.5s linear 1;
+}
+
+@keyframes one {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.animate2{
+    animation: two 1s linear 1;
+}
+
+@keyframes two {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.animate3{
+    animation: three .8s linear 1;
+}
+
+@keyframes three {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.animate4{
+    animation: four .6s linear 1;
+}
+
+@keyframes four {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.arrow{
+    animation: arrow 2s linear  infinite alternate-reverse;
+    z-index: -1;
+}
+
+@keyframes arrow {
+    0%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.like{
+    animation: like 3s linear  infinite alternate-reverse;
+}
+
+
+@keyframes like {
+    0%{
+        transform: translateY(10px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
